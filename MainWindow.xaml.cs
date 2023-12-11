@@ -79,7 +79,7 @@ namespace WpfApp10_UDP_Chat
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка отправки сообщения: {ex.Message}");
+                MessageBox.Show($"Ошибка отправки сообщения: {ex.Message}!");
             }
         }
 
